@@ -37,7 +37,7 @@ def hog(img):
     hist = np.hstack(hists)
     return hist
 
-path=r'C:\Users\Kashish\Desktop\images2\\'#images3 for NIST database
+path=r'C:\Users\Desktop\extracted_images\\'
 filenames=os.listdir(path)
 fvectors=np.zeros((len(filenames),36))#feature vector
 flabels=np.zeros((len(filenames),1)).astype('int')#feature label
