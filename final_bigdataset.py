@@ -37,7 +37,7 @@ def hog(img):
     hist = np.hstack(hists)
     return hist
 
-path=r'C:\Users\Kashish\Desktop\images3\\'
+path=r'C:\Users\Desktop\extracted_images2\\'
 filenames=os.listdir(path)
 
 flabels=np.load('flabels.npy')
